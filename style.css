@@ -1,0 +1,100 @@
+/*common css start*/
+body{
+	margin:0;
+
+	font-family:"playfair", serif;
+	font: 16x;
+	font-weight: 400;
+	color: #626262;
+
+}
+
+/*common css end*/
+/*header start*/
+header{}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	border: 1px solid;
+}
+.logo{
+	float: left;
+	font: n1em sans-serif;
+	width: 12%;
+	border: 1px solid;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 70%;
+	border: 1px solid;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	padding: 0px 50px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .33s linear;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+color: #00000;
+border-bottom: 1px solid #626262;
+}
+
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img img{
+	width: 100%;
+}
+
+/*banner end*/
+/*article start*/
+.article{
+	padding: 100px 0 100px;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	border: 1px solid;
+}
+.a_content{}
+.c_link{
+	font-family: "Ubuntu", serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.comment{
+	margin-top: 45px;
+
+}
+
+/*article end*/
+
